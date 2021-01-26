@@ -36,7 +36,7 @@ public class ObjectSpawner : MonoBehaviour
                 }
             }
 
-            Instantiate(prefabs[rand], spawnPoint.position, Quaternion.identity);
+            Instantiate(prefabs[rand], spawnPoint.position, prefabs[rand].transform.rotation);
             
             yield return new WaitForSeconds(delay);
         }
