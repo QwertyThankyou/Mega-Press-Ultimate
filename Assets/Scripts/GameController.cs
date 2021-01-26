@@ -30,7 +30,7 @@ public class GameController : MonoBehaviour
         if (countCrush == 20)
         {
             objectSpawner.isWork = false;
-            //winUI.SetActive(true);
+            winUI.SetActive(true);
         }
     }
 

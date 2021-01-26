@@ -24,7 +24,7 @@ public class Object : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            //animator.SetTrigger("Crushed");
+            animator.SetTrigger("Crushed");
         }
     }
 }
